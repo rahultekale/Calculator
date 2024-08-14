@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Calculator</h1>
+
+        <div class="display">
+            <input type="text" id="result" readonly>
+        </div>
+
+        <div class="button-container">
+            <!-- Row 1 -->
+            <button class="box" id="clear">AC</button>
+            <button class="box" id="backspace">←</button>
+            <button class="box" id="toggle-sign">+/-</button>
+            <button class="box operator" id="divide">÷</button>
+
+            <!-- Row 2 -->
+            <button class="box number">7</button>
+            <button class="box number">8</button>
+            <button class="box number">9</button>
+            <button class="box operator" id="multiply">X</button>
+
+            <!-- Row 3 -->
+            <button class="box number">4</button>
+            <button class="box number">5</button>
+            <button class="box number">6</button>
+            <button class="box operator" id="subtract">-</button>
+
+            <!-- Row 4 -->
+            <button class="box number">1</button>
+            <button class="box number">2</button>
+            <button class="box number">3</button>
+            <button class="box operator" id="add">+</button>
+
+            <!-- Row 5 -->
+            <button class="box operator" id="percentage">%</button>
+            <button class="box number">0</button>
+            <button class="box number">.</button>
+            <button class="box" id="equals">=</button>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
